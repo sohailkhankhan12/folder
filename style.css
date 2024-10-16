@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    width: 80%;
+    max-width: 400px;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.clock{
+    margin-top: -3rem;
+    padding: 1rem;
+    box-shadow: 0 0 5px 10px rgba(0,0,0,0.479);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+h2{
+    color: grey;
+    margin-bottom: 1rem;
+}
+input{
+    font-size: 1.2rem;
+    text-align: center;
+    width: 120px;
+}
+button{
+    margin-top: 1rem;
+    padding: 0.8rem;
+    width: 70%;
+    font-size: 1.5rem;
+    border: none;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(51, 51, 174);
+    border-radius: 10px;
+    cursor: pointer;
+}
